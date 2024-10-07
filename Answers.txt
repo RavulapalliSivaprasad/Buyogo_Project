@@ -1,0 +1,23 @@
+1.Create Training Center (POST):
+
+
+POST /api/training-centers
+{
+    "centerName": "ABC Training Center",
+    "centerCode": "ABC12345678",
+    "address": {
+        "detailedAddress": "1234 Street Name",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560001"
+    },
+    "studentCapacity": 100,
+    "coursesOffered": ["Java", "Python"],
+    "contactEmail": "info@abctraining.com",
+    "contactPhone": "9876543210"
+}
+
+
+2.Get All Training Centers (GET):
+
+GET /api/training-centers
